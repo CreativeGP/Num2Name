@@ -1,14 +1,13 @@
 <?php
-function num2name($num)
+function num2name($num, $max = 5, $min = 3)
 {
     $vowels = array('a', 'i', 'u', 'e', 'o', 'ar', 'ea', 'ear', 'or', 'oo', 'our', 'ew', 'ure', 'air', 'ir');
     $consonants = array('l', 'r', 'p', 'b', 't', 'd', 'k', 'g', 'm', 'n', 'f', 'v', 'h', 's', 'c', 'th', 'sh', 'j', 'y', 'w');
     
     mt_srand((int) $num);
 
-    $long = 5;
-    $orig = mt_rand(3, $long);
-    $name = mt_rand(3, $long);
+    $orig = mt_rand($min, $max);
+    $name = mt_rand($min, $ax);
     $ret_orig = "";
     $ret_name = "";
 
