@@ -1,4 +1,4 @@
-
+<?php
 function num2name($num)
 {
     $vowels = array('a', 'i', 'u', 'e', 'o', 'ar', 'ea', 'ear', 'or', 'oo', 'our', 'ew', 'ure', 'air', 'ir');
