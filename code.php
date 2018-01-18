@@ -4,10 +4,10 @@ function num2name($num, $max = 5, $min = 3)
     $vowels = array('a', 'i', 'u', 'e', 'o', 'ar', 'ea', 'ear', 'or', 'oo', 'our', 'ew', 'ure', 'air', 'ir');
     $consonants = array('l', 'r', 'p', 'b', 't', 'd', 'k', 'g', 'm', 'n', 'f', 'v', 'h', 's', 'c', 'th', 'sh', 'j', 'y', 'w');
     
-    mt_srand((int) $num);
+    mt_srand((int)$num);
 
     $orig = mt_rand((int)$min, (int)$max);
-    $name = mt_rand((int)$min, (int)$ax);
+    $name = mt_rand((int)$min, (int)$max);
     $ret_orig = "";
     $ret_name = "";
 
