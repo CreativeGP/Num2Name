@@ -6,8 +6,8 @@ function num2name($num, $max = 5, $min = 3)
     
     mt_srand((int) $num);
 
-    $orig = mt_rand($min, $max);
-    $name = mt_rand($min, $ax);
+    $orig = mt_rand((int)$min, (int)$max);
+    $name = mt_rand((int)$min, (int)$ax);
     $ret_orig = "";
     $ret_name = "";
 
